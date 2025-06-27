@@ -2,9 +2,9 @@
 set -e
 
 # Replace with your GitHub username and repository
-USERNAME="your-github-username"
+USERNAME="SmartAppTeam"
 REPO="smartapp"
-BRANCH="main"
+BRANCH="ravi"
 
 echo "Initializing git repo..."
 git init
