@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart App Predictor</title>
+    <link rel="icon" href="logo.png">
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        background: url('casino-background.jpg') center/cover no-repeat fixed;
+        color: white;
+        padding: 20px;
+      }
+      .center {
+        max-width: 800px;
+        margin: auto;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.75);
+        padding: 20px;
+        border-radius: 12px;
+      }
+      .button {
+        margin: 10px;
+        padding: 15px 25px;
+        background: white;
+        color: black;
+        border: none;
+        border-radius: 12px;
+        font-size: 18px;
+        cursor: pointer;
+      }
+      .section {
+        background: white;
+        color: black;
+        padding: 20px;
+        border-radius: 12px;
+        margin: 20px 0;
+      }
+      .review {
+        background: #f3f3f3;
+        padding: 12px;
+        margin-top: 10px;
+        border-radius: 8px;
+      }
+      .activation {
+        background: linear-gradient(135deg, #34d399, #3b82f6);
+        color: white;
+        padding: 20px;
+        border-radius: 12px;
+        margin: 20px 0;
+        animation: pulse 2s infinite;
+      }
+      .promocode {
+        background: #1f2937;
+        color: #fff;
+        padding: 20px;
+        border-radius: 12px;
+        margin: 20px 0;
+      }
+      .copy-code {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #10b981;
+        color: white;
+        font-weight: bold;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      @keyframes pulse {
+        0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255,255,255,0.7); }
+        70% { transform: scale(1.05); box-shadow: 0 0 15px 10px rgba(255,255,255,0); }
+        100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255,255,255,0); }
+      }
+    </style>
+    <script>
+      function copyPromoCode() {
+        navigator.clipboard.writeText('222BGM');
+        alert('Promo code 222BGM copied!');
+      }
+    </script>
+  </head>
+  <body>
+    <div class="center">
+      <img src="logo.png" alt="Smart App Logo" width="120" />
+      <h1>Smart App Predictor Bot</h1>
+      <p>Created by <strong>Ravi Sherpa</strong> for Nepal. Earn by playing and referring friends!</p>
+
+      <button class="button"><img src="aviator.png" width="24"> Aviator</button>
+      <button class="button"><img src="mines.png" width="24"> Mines</button>
+      <button class="button"><img src="penalties.png" width="24"> Penalties</button>
+
+      <div class="activation">
+        <h2>Activate Test Launch</h2>
+        <p>Click below to test the Smart App Bot now and experience winning predictions!</p>
+        <a href="https://t.me/smartappbot" target="_blank" style="display:inline-block;margin-top:10px;background:#111827;color:white;padding:12px 24px;border-radius:9999px;text-decoration:none;font-weight:bold;font-size:18px">
+          🚀 Launch Test Bot
+        </a>
+      </div>
+
+      <div class="promocode">
+        <h2>🎁 Promo Code</h2>
+        <p>Use the promo code below to unlock special features in the bot:</p>
+        <div class="copy-code" onclick="copyPromoCode()">Copy Code: <strong>222BGM</strong></div>
+      </div>
+
+      <div class="section">
+        <h2>How It Works</h2>
+        <p>Smart App Predictor Bot uses statistical analysis and historical pattern recognition to provide betting predictions. Here's how it works:</p>
+        <ul>
+          <li>We analyze game outcomes and data trends from popular online games like Aviator, Mines, and Penalties.</li>
+          <li>Using machine learning algorithms, the bot identifies patterns and probabilities that repeat over time.</li>
+          <li>Our predictive model is trained to suggest the most statistically favorable moments to play.</li>
+          <li>The predictions are then delivered directly to users via Telegram in real time.</li>
+          <li>Each prediction comes with a suggested multiplier or safe zone for best results.</li>
+        </ul>
+        <p>While not foolproof, our algorithm significantly increases your odds by removing the guesswork from play sessions.</p>
+      </div>
+
+      <div class="section">
+        <h2>Terms of Use</h2>
+        <p>Welcome to Smart App Predictor Bot. By using our platform, you agree to the following terms:</p>
+        <ul>
+          <li>You must be at least 18 years old to use this product.</li>
+          <li>Smart App provides predictions for entertainment purposes only. There is no guarantee of financial gain.</li>
+          <li>Users are responsible for their own financial decisions and must use the app responsibly.</li>
+          <li>Bonuses from referrals are provided as a reward for promoting Smart App to other users.</li>
+          <li>Smart App does not endorse or manage any betting platforms and is not liable for your actions on third-party sites.</li>
+          <li>Abuse of the system, including spam, manipulation, or fraud, will result in account suspension.</li>
+          <li>We may update these terms at any time. Continued use implies acceptance of changes.</li>
+          <li>Use of this product is at your own risk. Smart App and its creators are not liable for any losses.</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Winner Reviews</h2>
+        <div class="review">
+          <strong>Anil Thapa</strong><br />
+          Thanks to Smart App, I won big on Aviator! Truly amazing predictions!
+        </div>
+        <div class="review">
+          <strong>Sita Rana</strong><br />
+          Smart App helped me double my wins on Mines. Highly recommend it!
+        </div>
+        <div class="review">
+          <strong>Bikash Gurung</strong><br />
+          Penalties game was easy with Smart App tips. I'm a regular winner now!
+        </div>
+      </div>
+
+      <div class="section">
+        <p>Refer your friends and win more! Your referral link:</p>
+        <code style="background:white;color:red;padding:4px 8px;border-radius:6px;display:inline-block;margin-top:8px">
+          https://smartapp.ravi.nepal/referral?user=yourID
+        </code>
+      </div>
+
+      <div class="section">
+        <a
+          href="https://t.me/smartappbot"
+          target="_blank"
+          style="display:inline-block;background:#2563eb;color:white;padding:12px 24px;border-radius:9999px;text-decoration:none;font-size:18px"
+        >
+          Connect with Smart App on Telegram
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
