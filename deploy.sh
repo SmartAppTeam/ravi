@@ -3,7 +3,7 @@ set -e
 
 # Replace with your GitHub username and repository
 USERNAME="SmartAppTeam"
-REPO="smartapp"
+REPO="ravi"
 BRANCH="ravi"
 
 echo "Initializing git repo..."
