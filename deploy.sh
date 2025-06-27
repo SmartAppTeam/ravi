@@ -4,7 +4,7 @@ set -e
 # Replace with your GitHub username and repository
 USERNAME="SmartAppTeam"
 REPO="ravi"
-BRANCH="ravi"
+BRANCH="main"
 
 echo "Initializing git repo..."
 git init
